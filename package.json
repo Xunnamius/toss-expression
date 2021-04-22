@@ -1,0 +1,40 @@
+{
+  "name": "toss-expression",
+  "version": "0.1.0",
+  "description": "A tiny ponyfill for @babel/plugin-proposal-throw-expressions, the syntax from which TypeScript and VS Code do not (yet) support.",
+  "keywords": [
+    "babel",
+    "proposal",
+    "throw",
+    "expression",
+    "expressions",
+    "toss",
+    "statement",
+    "invalid",
+    "typescript",
+    "support",
+    "code",
+    "vs code"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Xunnamius/toss-expression"
+  },
+  "license": "Unlicense",
+  "author": "Xunnamius",
+  "sideEffects": false,
+  "type": "commonjs",
+  "exports": {
+    ".": "./dist/index.js",
+    "./package": "./package.json",
+    "./package.json": "./package.json"
+  },
+  "main": "./dist/index",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "/dist",
+    "/LICENSE",
+    "/package.json",
+    "/README.md"
+  ]
+}
