@@ -33,24 +33,21 @@ const userToken = secureRequest() || throw new SecureAccessError('badness occurr
 const userToken = secureRequest() || toss(new SecureAccessError('badness occurred'));
 ```
 
-## Installation
+## Installation and Usage
 
 ```bash
 npm install toss-expression
 ```
 
-ESM:
-
 ```typescript
-import toss from 'toss-expression';
-// import { toss } from 'toss-expression'; // also works
+// ESM
+import { toss } from 'toss-expression';
 console.log(successMessage() || toss('log operation failed'));
 ```
 
-CJS:
-
 ```javascript
-const toss = require('toss-expression');
+// CJS
+const { toss } = require('toss-expression');
 console.log(successMessage() || toss('log operation failed'));
 ```
 
