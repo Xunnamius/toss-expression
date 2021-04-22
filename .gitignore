@@ -1,0 +1,10 @@
+*.ignore
+*.ignore.*
+ignore.*
+/dist
+/build
+/.vscode
+/.env
+/external-scripts/bin
+/node_modules
+/coverage
