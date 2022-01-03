@@ -1,6 +1,6 @@
 {
   "name": "toss-expression",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A tiny ponyfill for @babel/plugin-proposal-throw-expressions, the syntax from which TypeScript and VS Code do not (yet) support.",
   "keywords": [
     "babel",
