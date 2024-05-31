@@ -67,7 +67,7 @@ information.
 [badge-blm]: https://xunn.at/badge-blm 'Join the movement!'
 [link-blm]: https://xunn.at/donate-blm
 [badge-maintenance]:
-  https://img.shields.io/maintenance/active/2023
+  https://img.shields.io/maintenance/active/2024
   'Is this package maintained?'
 [link-repo]: https://github.com/xunnamius/toss-expression
 [badge-last-commit]:
